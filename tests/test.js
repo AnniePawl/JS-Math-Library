@@ -29,7 +29,7 @@ test('roundUp', () => {
 test('roundDown', () => {
   expect((10).roundDown()).toBe(10)
   expect((10.2).roundDown()).toBe(10)
-  expect((10.5).roundDown()).tobe(10)
+  expect((10.5).roundDown()).toBe(10)
   expect((10.8).roundDown()).toBe(10)
 })
 
@@ -79,3 +79,4 @@ test('plusTax', () => {
 // randomRange(min, max) Test 
 
 // randomColor()
+// Returns a random, six digit hex value

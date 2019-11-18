@@ -66,10 +66,11 @@ Number.prototype.plusTax = function (rate) {
 // Returns an integer between a given min and max
 // Number.prototype.randomRange
 
+
 // randomColor
 // Returns a random, 6 digit hex value 
 // Number.prototype.randomColor = function () {
 //   return Number.random(255 * 255 * 255)
 // }
 
-// 
+
