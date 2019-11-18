@@ -14,6 +14,7 @@ test('round', () => {
   expect((10.5).round()).toBe(11)
   expect((10.9).round()).toBe(11)
 })
+
 // roundUp() Test
 // Rounds a number UP to nearest integer
 test('roundUp', () => {
@@ -32,7 +33,10 @@ test('roundDown', () => {
   expect((10.8).roundDown()).toBe(10)
 })
 
-// pad() Test
+// padNum() Test
+test('padNum', () => {
+  expect().toBe()
+})
 
 // degToRad() Test 
 // Tranforms degrees into radians 

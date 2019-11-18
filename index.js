@@ -20,8 +20,11 @@ Number.prototype.roundUp = function () {
   return Math.ceil(this)
 }
 
-// pad(x,y)
+// padNum(x,y)
 // Pads number w/ x Os before and y Os after
+// Number.prototype.padNum = function () {
+
+// }
 
 // degToRad()
 // Tranforms degrees into radians 
