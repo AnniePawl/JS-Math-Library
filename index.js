@@ -1,8 +1,6 @@
 // goldenRatio()
 // Adds golden ratio property to a number
-// Number.prototype.goldenRatio = function () {
-//   return Math.goldenRatio(this)
-// }
+Number.prototype.goldenRatio = 1.61803398875
 
 // round()
 // Rounds a number to nearest integer
@@ -30,46 +28,45 @@ Number.prototype.roundUp = function () {
 Number.prototype.degToRad = function () {
   return this * (Math.PI / 180)
 }
-// console.log((10).degToRad())
 
 // radToDeg()
 // Transforms radians into degrees
 Number.prototype.radToDeg = function () {
   return this * (180 / Math.PI)
 }
-// console.log((10).radToDeg())
-
 
 // toDollars()
-// Numeric value becomes string rounded 2 decimal places w/'$' in front
+// Tranforms a numeric value to a string rounded 2 decimal places w/'$' in front
 Number.prototype.toDollars = function () {
   return '$' + this.toFixed(2).toString()
 }
-// console.log(10.234232.toDollars())
 
+// plusTax(rate)
+// Returns a value plus a given tax rate. Ex rate = .2 (20%)
+Number.prototype.plusTax = function (rate) {
+  return this + this * rate
+}
 
-// tax(rate)
-// returns a value plus given tax rate 
 
 // interest(total, year, rate)
 // Calculates interest over time
 
 // randomNum()
 // Returns a random number between 0 and n-1 
-Number.prototype.randomNum = function (n) {
-  return Math.floor(Math.random() * Math.floor(n))
-}
+// Number.prototype.randomNum = function (n) {
+//   return Math.floor(Math.random() * Math.floor(n))
+// }
 
 // console.log(randomNum(5))
 
 // randomRange 
 // Returns an integer between a given min and max
-Number.prototype.randomRange
+// Number.prototype.randomRange
 
 // randomColor
 // Returns a random, 6 digit hex value 
-Number.prototype.randomColor = function () {
-  return Number.random(255 * 255 * 255)
-}
+// Number.prototype.randomColor = function () {
+//   return Number.random(255 * 255 * 255)
+// }
 
 // 
