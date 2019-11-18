@@ -1,0 +1,22 @@
+{
+  "name": "@annampawl/math_library",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Math-Library?style=flat-square)</br>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnniePawl/JS-Math-Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnniePawl/JS-Math-Library/issues"
+  },
+  "homepage": "https://github.com/AnniePawl/JS-Math-Library#readme"
+}

@@ -22,6 +22,9 @@ Number.prototype.roundUp = function () {
   return Math.ceil(this)
 }
 
+// pad(x,y)
+// Pads number w/ x Os before and y Os after
+
 // degToRad()
 // Tranforms degrees into radians 
 Number.prototype.degToRad = function () {
@@ -42,4 +45,31 @@ Number.prototype.radToDeg = function () {
 Number.prototype.toDollars = function () {
   return '$' + this.toFixed(2).toString()
 }
-console.log(10.234232.toDollars())
+// console.log(10.234232.toDollars())
+
+
+// tax(rate)
+// returns a value plus given tax rate 
+
+// interest(total, year, rate)
+// Calculates interest over time
+
+// randomNum()
+// Returns a random number between 0 and n-1 
+Number.prototype.randomNum = function (n) {
+  return Math.floor(Math.random() * Math.floor(n))
+}
+
+// console.log(randomNum(5))
+
+// randomRange 
+// Returns an integer between a given min and max
+Number.prototype.randomRange
+
+// randomColor
+// Returns a random, 6 digit hex value 
+Number.prototype.randomColor = function () {
+  return Number.random(255 * 255 * 255)
+}
+
+// 
