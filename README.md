@@ -1,5 +1,17 @@
 # JavaScript Math Library 
+![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Math-Library?style=flat-square)</br>
 
+This is a lightweight JavaScript library that extends the functionality of the number object. </br>
+
+### Getting Started
+Run the following command in your project folder: <br/>
+```
+npm install @annapawl/math_library --save
+``` 
+Then add this to your index.js file <br/>
+```
+require('@annapawl/src/math_library')
+```
 
 ## Number Methods
 **round()** </br>
@@ -49,5 +61,4 @@ This method returns an integer between specified min and max </br>
 **randomColor()** </br> 
 This method returns a random hex value </br> 
 `'randomColor()` &#8594; #827443
-
 
