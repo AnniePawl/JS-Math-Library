@@ -1,5 +1,10 @@
 require('../index')
 
+// goldenRatio() Test 
+// test('goldenRation', () => {
+//   expect(10.goldenRatio()).tobe()
+// })
+
 // roundUp() Test
 test('roundUp', () => {
   expect(10.5.roundUp()).toBe(11)
