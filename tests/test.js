@@ -1,9 +1,9 @@
-require('../index')
+require('../src/index')
 
 // goldenRatio() Test 
 // Adds golden ratio property to a number
 test('goldenRation', () => {
-  expect((10).goldenRatio()).tobe()
+  expect((5).goldenRatio).toBe(1.61803398875)
 })
 
 // round() Test
@@ -34,9 +34,9 @@ test('roundDown', () => {
 })
 
 // padNum() Test
-test('padNum', () => {
-  expect().toBe()
-})
+// test('padNum', () => {
+//   expect((27.27).padNum(2, 2)).toBe('')
+// })
 
 // degToRad() Test 
 // Tranforms degrees into radians 
@@ -66,6 +66,7 @@ test('toDollars', () => {
 })
 
 // plusTax() Test
+// Returns an amount plus tax
 test('plusTax', () => {
   expect((5).plusTax(.5)).toBe(7.5)
   expect((10).plusTax(.2)).toBe(12)
@@ -73,10 +74,36 @@ test('plusTax', () => {
 })
 
 // interest(total, year, rate) Test 
+// Calculates interest over time
+test('interest', () => {
+  expect((100).interest())
+})
 
-// random() Test
+// mortgage(principal, numberOfPayments, interestRate) Test
+// Caclulates mortgage over time
+test('mortgage', () => {
+  expect()
+})
+
+// random(n) Test
+// Returns a random integer between 0 and n-1
+test('random', (n) => {
+  expect(Number.random(10) < 10).toBe(true)
+  expect(Number.random(5) > 5).toBe(false)
+})
 
 // randomRange(min, max) Test 
+// Returns an integer between specified min and max
+test('randomRange', (min, max) => {
+  const x = Number.randomRange(2, 12)
+  expect(x < 12).toBe(true)
+  expect(x > 12).toBe(false)
+  expect(x > 2).toBe(true)
+  expect(x < 2).toBe(false)
+})
 
 // randomColor()
 // Returns a random, six digit hex value
+test('randomColor', () => {
+  expect()
+})

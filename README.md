@@ -1,5 +1,7 @@
 # JavaScript Math Library 
-![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Math-Library?style=flat-square)</br>
+![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Math-Library?style=flat-square)
+![npm](https://img.shields.io/npm/v/@annapawl/math_library?style=flat-square)
+</br>
 
 This is a lightweight JavaScript library that extends the functionality of the number object. </br>
 
@@ -13,7 +15,7 @@ Then add this to your index.js file <br/>
 require('@annapawl/src/math_library')
 ```
 
-## Number Methods
+## Rounding Methods
 **round()** </br>
 This method rounds a specified number</br> 
 `'9.99.round()` &#8594; 10
