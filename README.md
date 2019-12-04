@@ -15,20 +15,24 @@ Then add this to your index.js file <br/>
 require('@annapawl/src/math_library')
 ```
 
+## Golden Ration 
+**goldenRatio()** </br>
+This function returns the golden ratio
+
 ## Rounding Methods
 **round()** </br>
 This method rounds a specified number</br> 
 `'9.99.round()` &#8594; 10
 
-**floor()** </br>
+**roundDown()** </br>
 This method rounds a specified number **down**</br> 
 `'9.99.floor()` &#8594; 9
 
-**ceiling()** </br>
+**roundDown()** </br>
 This method rounds a specified number **up**</br> 
 `'9.2.ceiling()` &#8594; 10
 
-## Degree Methods
+## Degrees &harr Radians 
 **degToRad(n)** </br> 
 This methods converts degrees to radians </br>
 `45.degToRad()`&#8594; 0.785
@@ -47,6 +51,10 @@ This methods takes in a numeric value and returns the amount with tax </br>
 `3.9.tax()`&#8594; '$4.20' 
 
 **interest(total, year, rate)** </br> 
+This methods calculates interests over a specified timeline </br>
+`3.9.tax()`&#8594; '$4.20' 
+
+**mortgage(principal, year, rate)** </br> 
 This methods calculates interests over a specified timeline </br>
 `3.9.tax()`&#8594; '$4.20' 
 

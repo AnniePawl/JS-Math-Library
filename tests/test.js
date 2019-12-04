@@ -1,9 +1,10 @@
 require('../src/index')
 
+
 // goldenRatio() Test 
 // Adds golden ratio property to a number
-test('goldenRation', () => {
-  expect((5).goldenRatio).toBe(1.61803398875)
+test('goldenRatio', () => {
+  expect(Number.goldenRatio).toBe(1.61803398875)
 })
 
 // round() Test
@@ -33,10 +34,14 @@ test('roundDown', () => {
   expect((10.8).roundDown()).toBe(10)
 })
 
-// padNum() Test
-// test('padNum', () => {
-//   expect((27.27).padNum(2, 2)).toBe('')
-// })
+// padNum() Test 
+// Pads number w/ x Os before and y Os after
+test('padNum', () => {
+  expect((27.27).padNum(4, 4)).toBe('0027.2700')
+  expect((11.11).padNum(3, 5)).toBe('011.11000')
+  expect((11.11).padNum(4, 5)).toBe('0011.11000')
+  expect((123.123).padNum(6, 3)).toBe('000123.123')
+})
 
 // degToRad() Test 
 // Tranforms degrees into radians 
@@ -76,13 +81,17 @@ test('plusTax', () => {
 // interest(total, year, rate) Test 
 // Calculates interest over time
 test('interest', () => {
-  expect((100).interest())
+  expect(Number.interest(100, 2, 2)).toBe(104.04)
+  expect(Number.interest(200, 5, 5)).toBe(255.2563)
+  expect(Number.interest(500, 8, 8)).toBe(925.4651)
 })
 
 // mortgage(principal, numberOfPayments, interestRate) Test
 // Caclulates mortgage over time
 test('mortgage', () => {
-  expect()
+  expect(Number.mortgage(10, 5, 10)).toBe(100.00062092517851)
+  expect(Number.mortgage(80, 2, 20)).toBe(1603.6363636363637)
+  expect(Number.mortgage(5, 2, 90)).toBe(450.05434782608694)
 })
 
 // random(n) Test
