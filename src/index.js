@@ -57,11 +57,10 @@ Number.prototype.plusTax = function (rate) {
 
 // interest(total, year, rate)
 // Calculates interest over time
-Number.interest = function (total, year, rate) {
+Number.plusInterest = function (total, year, rate) {
     var interest = rate / 100 + 1;
     return parseFloat((total * Math.pow(interest, year)).toFixed(4));
 };
-
 
 // mortage(principal, numberOfPayments, interestRate)
 // https://stackoverflow.com/questions/17101442/how-to-calculate-mortgage-in-javascript
@@ -86,6 +85,10 @@ Number.randomRange = function (min, max) {
 
 // randomColor
 // Returns a random, 6 digit hex value 
+Number.prototype.toHex = function () {
+    return this.toString(16)
+}
+
 Number.randomColor = function () {
     return Number.random(255 * 255 * 255).toHex()
 }

@@ -1,6 +1,5 @@
 require('../src/index')
 
-
 // goldenRatio() Test 
 // Adds golden ratio property to a number
 test('goldenRatio', () => {
@@ -80,10 +79,10 @@ test('plusTax', () => {
 
 // interest(total, year, rate) Test 
 // Calculates interest over time
-test('interest', () => {
-  expect(Number.interest(100, 2, 2)).toBe(104.04)
-  expect(Number.interest(200, 5, 5)).toBe(255.2563)
-  expect(Number.interest(500, 8, 8)).toBe(925.4651)
+test('plusInterest', () => {
+  expect(Number.plusInterest(100, 2, 2)).toBe(104.04)
+  expect(Number.plusInterest(200, 5, 5)).toBe(255.2563)
+  expect(Number.plusInterest(500, 8, 8)).toBe(925.4651)
 })
 
 // mortgage(principal, numberOfPayments, interestRate) Test
@@ -97,22 +96,22 @@ test('mortgage', () => {
 // random(n) Test
 // Returns a random integer between 0 and n-1
 test('random', (n) => {
-  expect(Number.random(10) < 10).toBe(true)
-  expect(Number.random(5) > 5).toBe(false)
+  expect(Number.random(10) > 10).toBe(false)
+  expect(Number.random(5) < 5).toBe(true)
 })
 
 // randomRange(min, max) Test 
 // Returns an integer between specified min and max
 test('randomRange', (min, max) => {
-  const x = Number.randomRange(2, 12)
-  expect(x < 12).toBe(true)
-  expect(x > 12).toBe(false)
-  expect(x > 2).toBe(true)
-  expect(x < 2).toBe(false)
+  expect(Number.randomRange(1, 5) > 0 < 5).toBe(true)
+  expect(Number.randomRange(5, 10) > 4 < 10).toBe(true)
 })
 
 // randomColor()
 // Returns a random, six digit hex value
 test('randomColor', () => {
-  expect()
+  const h = Number.randomColor()
+  const a = parseInt(h, 16);
+  console.log(h)
+  expect(a.toString(16) === h).toBe(true)
 })

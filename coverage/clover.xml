@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1575492535124" clover="3.2.0">
+  <project timestamp="1575492535124" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="51" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/Users/annapawl/Desktop/CODE/Make_School/Front_End/JS_Libraries/Math_Library/src/index.js">
+      <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="28" count="4" type="stmt"/>
+      <line num="29" count="4" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="4" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="4" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="61" count="3" type="stmt"/>
+      <line num="62" count="3" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="3" type="stmt"/>
+      <line num="70" count="3" type="stmt"/>
+      <line num="71" count="3" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="77" count="3" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="83" count="2" type="stmt"/>
+      <line num="88" count="1" type="stmt"/>
+      <line num="89" count="1" type="stmt"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
