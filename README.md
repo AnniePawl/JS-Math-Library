@@ -74,3 +74,15 @@ This method returns an integer between specified min and max </br>
 This method returns a random hex value </br> 
 `'randomColor()` &#8594; 8a7f43
 
+
+## Test Coverage 
+```
+npx jest --coverage
+```
+----------|----------|----------|----------|----------|-------------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+----------|----------|----------|----------|----------|-------------------|
+All files |      100 |      100 |      100 |      100 |                   |
+ index.js |      100 |      100 |      100 |      100 |                   |
+----------|----------|----------|----------|----------|-------------------|
+

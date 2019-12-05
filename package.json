@@ -1,6 +1,6 @@
 {
   "name": "@annapawl/math_library",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "![GitHub repo size](https://img.shields.io/github/repo-size/AnniePawl/JS-Math-Library?style=flat-square)</br>",
   "main": "index.js",
   "directories": {

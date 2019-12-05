@@ -95,16 +95,21 @@ test('mortgage', () => {
 
 // random(n) Test
 // Returns a random integer between 0 and n-1
-test('random', (n) => {
-  expect(Number.random(10) > 10).toBe(false)
-  expect(Number.random(5) < 5).toBe(true)
+test('random', () => {
+  for (let i = 0; i < 1000; i += 1) {
+    const n = Number.random(10)
+    expect(n > 10).toBe(false)
+    expect(n < 0).toBe(false)
+  }
 })
 
 // randomRange(min, max) Test 
 // Returns an integer between specified min and max
-test('randomRange', (min, max) => {
-  expect(Number.randomRange(1, 5) > 0 < 5).toBe(true)
-  expect(Number.randomRange(5, 10) > 4 < 10).toBe(true)
+test('randomRange', () => {
+  for (let i = 0; i < 1000; i += 1) {
+    expect(Number.randomRange(1, 5) > 0 < 5).toBe(true)
+    expect(Number.randomRange(5, 10) > 4 < 10).toBe(true)
+  }
 })
 
 // randomColor()

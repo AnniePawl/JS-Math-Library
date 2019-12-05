@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575492535124" clover="3.2.0">
-  <project timestamp="1575492535124" name="All files">
+<coverage generated="1575493256522" clover="3.2.0">
+  <project timestamp="1575493256522" name="All files">
     <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="51" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/Users/annapawl/Desktop/CODE/Make_School/Front_End/JS_Libraries/Math_Library/src/index.js">
       <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
